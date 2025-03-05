@@ -1,0 +1,73 @@
+[
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 10.99,
+      "description": "A story of the Jazz Age in the United States, centered around the mysterious Jay Gatsby.",
+      "stockquantity": 25
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "price": 12.99,
+      "description": "A dystopian novel exploring the dangers of totalitarianism and surveillance.",
+      "stockquantity": 40
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 9.99,
+      "description": "A story of racial injustice in the Deep South during the 1930s, seen through the eyes of a young girl.",
+      "stockquantity": 15
+    },
+    {
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "price": 14.99,
+      "description": "The epic tale of Captain Ahab’s obsessive quest to hunt the white whale, Moby-Dick.",
+      "stockquantity": 10
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 11.99,
+      "description": "A classic romance exploring themes of class, love, and social expectations in 19th-century England.",
+      "stockquantity": 30
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 13.49,
+      "description": "The story of Holden Caulfield, a disenchanted teenager struggling with the complexities of life and identity.",
+      "stockquantity": 20
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 8.99,
+      "description": "The prelude to the Lord of the Rings series, following Bilbo Baggins on his adventure to reclaim a treasure.",
+      "stockquantity": 50
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "price": 19.99,
+      "description": "A sweeping epic of Russian society during the Napoleonic Wars, blending history with fiction.",
+      "stockquantity": 5
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "price": 15.49,
+      "description": "A dystopian novel imagining a future where technology and social engineering create a society devoid of individuality.",
+      "stockquantity": 35
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "price": 16.99,
+      "description": "The first part of the epic fantasy trilogy, following the journey of Frodo Baggins and his companions to destroy the One Ring.",
+      "stockquantity": 45
+    }
+  ]
+  
