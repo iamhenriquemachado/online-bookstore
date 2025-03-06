@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from typing import ClassVar 
 import itertools
 
-class BookModel(BaseModel):
+class Book(BaseModel):
     id: int = Field(None, description="ID of the book, auto-generated")
     title: str
     author: str

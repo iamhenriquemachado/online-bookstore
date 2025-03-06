@@ -1,73 +1,142 @@
 [
-    {
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "price": 10.99,
-      "description": "A story of the Jazz Age in the United States, centered around the mysterious Jay Gatsby.",
-      "stockquantity": 25
-    },
-    {
-      "title": "1984",
-      "author": "George Orwell",
-      "price": 12.99,
-      "description": "A dystopian novel exploring the dangers of totalitarianism and surveillance.",
-      "stockquantity": 40
-    },
-    {
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "price": 9.99,
-      "description": "A story of racial injustice in the Deep South during the 1930s, seen through the eyes of a young girl.",
-      "stockquantity": 15
-    },
-    {
-      "title": "Moby-Dick",
-      "author": "Herman Melville",
-      "price": 14.99,
-      "description": "The epic tale of Captain Ahab’s obsessive quest to hunt the white whale, Moby-Dick.",
-      "stockquantity": 10
-    },
-    {
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "price": 11.99,
-      "description": "A classic romance exploring themes of class, love, and social expectations in 19th-century England.",
-      "stockquantity": 30
-    },
-    {
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "price": 13.49,
-      "description": "The story of Holden Caulfield, a disenchanted teenager struggling with the complexities of life and identity.",
-      "stockquantity": 20
-    },
-    {
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "price": 8.99,
-      "description": "The prelude to the Lord of the Rings series, following Bilbo Baggins on his adventure to reclaim a treasure.",
-      "stockquantity": 50
-    },
-    {
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "price": 19.99,
-      "description": "A sweeping epic of Russian society during the Napoleonic Wars, blending history with fiction.",
-      "stockquantity": 5
-    },
-    {
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "price": 15.49,
-      "description": "A dystopian novel imagining a future where technology and social engineering create a society devoid of individuality.",
-      "stockquantity": 35
-    },
-    {
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "author": "J.R.R. Tolkien",
-      "price": 16.99,
-      "description": "The first part of the epic fantasy trilogy, following the journey of Frodo Baggins and his companions to destroy the One Ring.",
-      "stockquantity": 45
-    }
-  ]
-  
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "price": 9.99,
+    "description": "A philosophical novel about following one's dreams and personal legend.",
+    "stockquantity": 50
+  },
+  {
+    "title": "The Shining",
+    "author": "Stephen King",
+    "price": 14.99,
+    "description": "A horror novel about a haunted hotel and a man's descent into madness.",
+    "stockquantity": 30
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "price": 18.99,
+    "description": "A science fiction epic set in a desert world filled with intrigue and adventure.",
+    "stockquantity": 25
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "price": 7.99,
+    "description": "The classic horror novel exploring themes of creation and responsibility.",
+    "stockquantity": 40
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "price": 12.99,
+    "description": "A psychological novel about guilt, redemption, and morality.",
+    "stockquantity": 20
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "price": 10.49,
+    "description": "A post-apocalyptic journey of survival between a father and son.",
+    "stockquantity": 35
+  },
+  {
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "price": 8.99,
+    "description": "A gothic horror novel introducing Count Dracula to the world.",
+    "stockquantity": 15
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "price": 11.99,
+    "description": "An epic Greek poem about the journey of Odysseus after the Trojan War.",
+    "stockquantity": 50
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "price": 9.49,
+    "description": "A dystopian novel about a future where books are outlawed and burned.",
+    "stockquantity": 28
+  },
+  {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "price": 15.99,
+    "description": "A classic Spanish novel following the adventures of a self-proclaimed knight.",
+    "stockquantity": 18
+  },
+  {
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "price": 13.99,
+    "description": "A historical novel set during the French Revolution.",
+    "stockquantity": 22
+  },
+  {
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "price": 17.99,
+    "description": "A sweeping novel of justice, redemption, and revolution in France.",
+    "stockquantity": 10
+  },
+  {
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "price": 10.99,
+    "description": "A gothic love story filled with passion, revenge, and tragedy.",
+    "stockquantity": 30
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "price": 9.99,
+    "description": "A novel exploring vanity, morality, and the pursuit of eternal youth.",
+    "stockquantity": 40
+  },
+  {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "price": 16.49,
+    "description": "A tale of betrayal, revenge, and redemption.",
+    "stockquantity": 27
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "price": 14.49,
+    "description": "A novel depicting the struggles of a family during the Great Depression.",
+    "stockquantity": 19
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "price": 11.99,
+    "description": "A satirical novel about the absurdity of war and time travel.",
+    "stockquantity": 32
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "price": 14.99,
+    "description": "The epic tale of Captain Ahab’s obsessive quest to hunt the white whale, Moby-Dick.",
+    "stockquantity": 10
+  },
+  {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "price": 18.49,
+    "description": "A novel of love, betrayal, and Russian society in the 19th century.",
+    "stockquantity": 12
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "price": 16.99,
+    "description": "A magical realist novel following generations of the Buendía family.",
+    "stockquantity": 23
+  }
+]

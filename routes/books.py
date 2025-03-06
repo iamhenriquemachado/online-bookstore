@@ -1,12 +1,11 @@
-from models.bookModel import BookModel
-from fastapi import APIRouter
+from models.Book import BookModel
+from fastapi import APIRouter, HTTPException
 
 router = APIRouter()
 
-# Route: http://127.0.0.1:8000/books/post
-# Create a new book
+# Route URL: http://127.0.0.1:8000/books/post
 @router.post('/post')
-def new_book(bookdata: BookModel):
+async def new_book(bookdata: BookModel):
     bookdata.id = BookModel.generate_id()
 
     return {
@@ -14,4 +13,11 @@ def new_book(bookdata: BookModel):
         "bookInformation": bookdata.model_dump()
     }
 
-
+@router.post('/getbooks')
+async def get_all_books():
+    try:
+        return {
+            "bookInformation": bookdata.model_dump()
+            }
+    except:
+        raise HTTPException(status_code=404, detail="Item not found")
