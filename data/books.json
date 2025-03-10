@@ -1,142 +1,198 @@
 [
   {
-    "title": "The Alchemist",
-    "author": "Paulo Coelho",
-    "price": 9.99,
-    "description": "A philosophical novel about following one's dreams and personal legend.",
-    "stockquantity": 50
-  },
-  {
-    "title": "The Shining",
-    "author": "Stephen King",
-    "price": 14.99,
-    "description": "A horror novel about a haunted hotel and a man's descent into madness.",
-    "stockquantity": 30
-  },
-  {
-    "title": "Dune",
-    "author": "Frank Herbert",
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
     "price": 18.99,
-    "description": "A science fiction epic set in a desert world filled with intrigue and adventure.",
-    "stockquantity": 25
-  },
-  {
-    "title": "Frankenstein",
-    "author": "Mary Shelley",
-    "price": 7.99,
-    "description": "The classic horror novel exploring themes of creation and responsibility.",
-    "stockquantity": 40
-  },
-  {
-    "title": "Crime and Punishment",
-    "author": "Fyodor Dostoevsky",
-    "price": 12.99,
-    "description": "A psychological novel about guilt, redemption, and morality.",
+    "description": "A mysterious circus that only opens at night and two magicians bound by a magical duel.",
     "stockquantity": 20
   },
   {
-    "title": "The Road",
-    "author": "Cormac McCarthy",
-    "price": 10.49,
-    "description": "A post-apocalyptic journey of survival between a father and son.",
-    "stockquantity": 35
-  },
-  {
-    "title": "Dracula",
-    "author": "Bram Stoker",
-    "price": 8.99,
-    "description": "A gothic horror novel introducing Count Dracula to the world.",
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "price": 21.50,
+    "description": "A scientist wakes up alone in space with a mission to save Earth.",
     "stockquantity": 15
   },
   {
-    "title": "The Odyssey",
-    "author": "Homer",
-    "price": 11.99,
-    "description": "An epic Greek poem about the journey of Odysseus after the Trojan War.",
-    "stockquantity": 50
-  },
-  {
-    "title": "Fahrenheit 451",
-    "author": "Ray Bradbury",
-    "price": 9.49,
-    "description": "A dystopian novel about a future where books are outlawed and burned.",
-    "stockquantity": 28
-  },
-  {
-    "title": "Don Quixote",
-    "author": "Miguel de Cervantes",
-    "price": 15.99,
-    "description": "A classic Spanish novel following the adventures of a self-proclaimed knight.",
-    "stockquantity": 18
-  },
-  {
-    "title": "A Tale of Two Cities",
-    "author": "Charles Dickens",
-    "price": 13.99,
-    "description": "A historical novel set during the French Revolution.",
-    "stockquantity": 22
-  },
-  {
-    "title": "Les Misérables",
-    "author": "Victor Hugo",
-    "price": 17.99,
-    "description": "A sweeping novel of justice, redemption, and revolution in France.",
-    "stockquantity": 10
-  },
-  {
-    "title": "Wuthering Heights",
-    "author": "Emily Brontë",
-    "price": 10.99,
-    "description": "A gothic love story filled with passion, revenge, and tragedy.",
-    "stockquantity": 30
-  },
-  {
-    "title": "The Picture of Dorian Gray",
-    "author": "Oscar Wilde",
-    "price": 9.99,
-    "description": "A novel exploring vanity, morality, and the pursuit of eternal youth.",
-    "stockquantity": 40
-  },
-  {
-    "title": "The Count of Monte Cristo",
-    "author": "Alexandre Dumas",
-    "price": 16.49,
-    "description": "A tale of betrayal, revenge, and redemption.",
-    "stockquantity": 27
-  },
-  {
-    "title": "The Grapes of Wrath",
-    "author": "John Steinbeck",
-    "price": 14.49,
-    "description": "A novel depicting the struggles of a family during the Great Depression.",
-    "stockquantity": 19
-  },
-  {
-    "title": "Slaughterhouse-Five",
-    "author": "Kurt Vonnegut",
-    "price": 11.99,
-    "description": "A satirical novel about the absurdity of war and time travel.",
-    "stockquantity": 32
-  },
-  {
-    "title": "Moby-Dick",
-    "author": "Herman Melville",
-    "price": 14.99,
-    "description": "The epic tale of Captain Ahab’s obsessive quest to hunt the white whale, Moby-Dick.",
-    "stockquantity": 10
-  },
-  {
-    "title": "Anna Karenina",
-    "author": "Leo Tolstoy",
-    "price": 18.49,
-    "description": "A novel of love, betrayal, and Russian society in the 19th century.",
+    "title": "The House in the Cerulean Sea",
+    "author": "TJ Klune",
+    "price": 16.75,
+    "description": "A caseworker evaluates an orphanage with magical children and discovers family in unexpected places.",
     "stockquantity": 12
   },
   {
-    "title": "One Hundred Years of Solitude",
-    "author": "Gabriel García Márquez",
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "price": 14.99,
+    "description": "A woman finds herself in a library between life and death, able to explore the lives she could have lived.",
+    "stockquantity": 18
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "price": 17.25,
+    "description": "A retelling of the myth of Circe, the enchantress from Homer's Odyssey.",
+    "stockquantity": 22
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "price": 19.50,
+    "description": "A psychological thriller about a woman who stops speaking after a shocking crime.",
+    "stockquantity": 30
+  },
+  {
+    "title": "Mexican Gothic",
+    "author": "Silvia Moreno-Garcia",
     "price": 16.99,
-    "description": "A magical realist novel following generations of the Buendía family.",
+    "description": "A horror novel set in a mysterious mansion in the Mexican countryside.",
+    "stockquantity": 14
+  },
+  {
+    "title": "The Paper Palace",
+    "author": "Miranda Cowley Heller",
+    "price": 20.00,
+    "description": "A woman confronts a life-changing decision over the course of a summer weekend.",
+    "stockquantity": 16
+  },
+  {
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin",
+    "price": 22.99,
+    "description": "A story about friendship, love, and video game development.",
+    "stockquantity": 25
+  },
+  {
+    "title": "Remarkably Bright Creatures",
+    "author": "Shelby Van Pelt",
+    "price": 18.25,
+    "description": "A heartwarming novel about an unlikely friendship between a woman and an octopus.",
+    "stockquantity": 19
+  },
+  {
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "price": 17.75,
+    "description": "An AI-powered companion observes human emotions and longing.",
+    "stockquantity": 13
+  },
+  {
+    "title": "The Atlas Six",
+    "author": "Olivie Blake",
+    "price": 16.50,
+    "description": "A dark academia fantasy about six talented magicians competing for a secret society.",
+    "stockquantity": 27
+  },
+  {
+    "title": "Lessons in Chemistry",
+    "author": "Bonnie Garmus",
+    "price": 15.99,
+    "description": "A witty novel about a woman scientist who becomes an unexpected TV cooking show star.",
+    "stockquantity": 21
+  },
+  {
+    "title": "Fourth Wing",
+    "author": "Rebecca Yarros",
+    "price": 24.99,
+    "description": "A young woman is forced into an elite dragon-riding school where survival is uncertain.",
+    "stockquantity": 17
+  },
+  {
+    "title": "Babel",
+    "author": "R.F. Kuang",
+    "price": 19.75,
+    "description": "A dark academia novel exploring language, colonialism, and rebellion in 19th-century Oxford.",
+    "stockquantity": 14
+  },
+  {
+    "title": "Before We Were Strangers",
+    "author": "Renée Carlino",
+    "price": 14.50,
+    "description": "A second-chance romance about two lovers who reconnect after years apart.",
+    "stockquantity": 20
+  },
+  {
+    "title": "Anxious People",
+    "author": "Fredrik Backman",
+    "price": 17.99,
+    "description": "A group of strangers become unlikely allies after a failed bank robbery turns into a hostage situation.",
     "stockquantity": 23
+  },
+  {
+    "title": "The Guncle",
+    "author": "Steven Rowley",
+    "price": 18.00,
+    "description": "A former sitcom star becomes the guardian of his niece and nephew, learning about love and family.",
+    "stockquantity": 26
+  },
+  {
+    "title": "Sea of Tranquility",
+    "author": "Emily St. John Mandel",
+    "price": 21.50,
+    "description": "A sci-fi novel spanning centuries, exploring time travel and existential questions.",
+    "stockquantity": 15
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "price": 16.75,
+    "description": "A story of a young girl in Nazi Germany, narrated by Death itself.",
+    "stockquantity": 29
+  },
+  {
+    "title": "The Storied Life of A.J. Fikry",
+    "author": "Gabrielle Zevin",
+    "price": 14.99,
+    "description": "A lonely bookstore owner finds a new purpose after an unexpected arrival.",
+    "stockquantity": 31
+  },
+  {
+    "title": "The Henna Artist",
+    "author": "Alka Joshi",
+    "price": 15.25,
+    "description": "A historical novel about a young woman in 1950s India escaping an arranged marriage to become a henna artist.",
+    "stockquantity": 18
+  },
+  {
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "price": 19.99,
+    "description": "A chilling romantic thriller about a ghostwriter uncovering disturbing secrets.",
+    "stockquantity": 22
+  },
+  {
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "price": 17.99,
+    "description": "A literary mystery set in post-war Barcelona, revolving around a forgotten book.",
+    "stockquantity": 28
+  },
+  {
+    "title": "Pineapple Street",
+    "author": "Jenny Jackson",
+    "price": 22.50,
+    "description": "A social satire about wealth, privilege, and family drama in Brooklyn.",
+    "stockquantity": 13
+  },
+  {
+    "title": "The Measure",
+    "author": "Nikki Erlick",
+    "price": 18.75,
+    "description": "A novel where everyone in the world receives a box predicting how long they will live.",
+    "stockquantity": 17
+  },
+  {
+    "title": "Mad Honey",
+    "author": "Jodi Picoult & Jennifer Finney Boylan",
+    "price": 20.25,
+    "description": "A novel about secrets, identity, and a courtroom drama surrounding a tragic death.",
+    "stockquantity": 14
+  },
+  {
+    "title": "The Light We Lost",
+    "author": "Jill Santopolo",
+    "price": 16.25,
+    "description": "A love story about fate and choices that shape a couple’s relationship over years.",
+    "stockquantity": 21
   }
 ]

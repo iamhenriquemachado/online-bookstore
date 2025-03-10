@@ -28,8 +28,8 @@ Build a **Bookstore API** where users can browse, search, purchase, and manage b
 ### 3. Book Management
 - Create a model for books, which includes fields like `title`, `author`, `price`, `description`, and `stock quantity`.
 - Implement CRUD endpoints for managing books:
-  - `GET /books`: Fetch all books.
-  - `GET /books/{id}`: Fetch a single book by ID.
+  - [x] `GET /books`: Fetch all books.
+  - [x] `GET /books/{id}`: Fetch a single book by ID.
   - `POST /books`: Add a new book (admin-only).
   - `PUT /books/{id}`: Update book details (admin-only).
   - `DELETE /books/{id}`: Delete a book (admin-only).
