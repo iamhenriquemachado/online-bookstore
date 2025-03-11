@@ -3,7 +3,7 @@ from models.Book import Book
 import sqlite3
 from typing import List, Dict
 from helpers.validators import input_title_validation
-from helpers.database import fetch_books, get_db_connection, insert_book, update_book
+from helpers.database import fetch_books, insert_book, update_book
 import logging
 
 router = APIRouter()
@@ -82,21 +82,66 @@ async def new_book(bookdata: Book):
     
 
 # Update books 
-@router.put("update/{id}")
-async def update_books_by_id(bookdata: Book):
-     query = """UPDATE Books SET title = (?), price =  (?), description = (?), stockquantity = (?) WHERE id ?"""
-     book_id = update_book(query, (bookdata.title, bookdata.author, bookdata.price, bookdata.description, bookdata.stockquantity))
+@router.put('/update/{id}')
+async def update_books_by_id(id: int, bookdata: Book):
+
+    # Check if the updated book exists in the database
+    query = """SELECT id from Books WHERE id = ?"""
+    books = fetch_books(query, (id,))
+
+    if not books:
+        raise HTTPException(status_code=404, detail="Book not found.")
+
      
-     return {
-        "status": "sucess", 
-        "message": "Book updated successfully", 
-        "data": {
-             "id": book_id, 
-            "title": bookdata.title, 
-            "author": bookdata.author, 
-            "price": bookdata.price, 
-            "description": bookdata.description, 
-            "stockquantity": bookdata.stockquantity
+    try: 
+
+        query = f"""UPDATE Books SET title = ?, author = ?, price = ?, description = ?, stockquantity = ? WHERE id = ?"""
+        book_id = update_book(query, (bookdata.title, bookdata.author, bookdata.price, bookdata.description, bookdata.stockquantity, id))
+
+        
+        return {
+            "status": "sucess", 
+            "message": "Book updated successfully", 
+            "data": {
+                "id": book_id, 
+                "title": bookdata.title, 
+                "author": bookdata.author, 
+                "price": bookdata.price, 
+                "description": bookdata.description, 
+                "stockquantity": bookdata.stockquantity
+            }
+
+        }
+    except sqlite3.Error as e:
+            logger.error(f"Database error: {str(e)}")
+            raise HTTPException(status_code=500, detail="Database error")
+
+@router.delete('/delete/{id}')
+async def delete_book_by_id(id: int):
+    try:
+        # Fetch the book details first
+        query = """SELECT id, title, author FROM Books WHERE id = ?"""
+        book = fetch_books(query, (id,))
+
+        if not book:
+            raise HTTPException(status_code=404, detail="Book not found")
+        
+        # Now, delete the book
+        query = """DELETE FROM Books WHERE id = ?"""
+        update_book(query, (id,))
+
+        return {
+            "status": "deleted",
+            "message": f"Book '{book[0]['title']}' deleted successfully",
+            "data": {
+                "id": book[0]["id"], 
+                "title": book[0]["title"], 
+                "author": book[0]["author"]
+            }
         }
 
-    }
+    except sqlite3.Error as e:
+        logger.error(f"Database error: {str(e)}")
+        raise HTTPException(status_code=500, detail="Database error")
+
+

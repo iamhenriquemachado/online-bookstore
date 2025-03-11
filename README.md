@@ -15,8 +15,8 @@ Build a **Bookstore API** where users can browse, search, purchase, and manage b
 ## Steps to Build
 
 ### 1. Set Up FastAPI
-- Install **FastAPI** and **Uvicorn**.
-- Create routes and basic structure for your API, including `/books`, `/users`, `/orders`, and `/payments`.
+- [x] Install **FastAPI** and **Uvicorn**.
+- [x]Create routes and basic structure for your API, including `/books`, `/users`, `/orders`, and `/payments`.
 
 ### 2. User Management
 - Implement user registration and login with password hashing (e.g., using **bcrypt**).
@@ -30,9 +30,9 @@ Build a **Bookstore API** where users can browse, search, purchase, and manage b
 - Implement CRUD endpoints for managing books:
   - [x] `GET /books`: Fetch all books.
   - [x] `GET /books/{id}`: Fetch a single book by ID.
-  - `POST /books`: Add a new book (admin-only).
-  - `PUT /books/{id}`: Update book details (admin-only).
-  - `DELETE /books/{id}`: Delete a book (admin-only).
+  - [x] `POST /books`: Add a new book (admin-only).
+  - [x] `PUT /books/{id}`: Update book details (admin-only).
+  - [x] `DELETE /books/{id}`: Delete a book (admin-only).
 
 ### 4. Order Management
 - Implement an order model that links users to the books they purchase (with quantity and price).
